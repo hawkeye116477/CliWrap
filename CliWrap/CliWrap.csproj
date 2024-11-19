@@ -63,5 +63,7 @@
       <Visible>false</Visible>
     </EmbeddedResource>
   </ItemGroup>
-
+  <PropertyGroup>
+    <PathMap>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)/..'))=Dev:/CliWrap</PathMap>
+  </PropertyGroup>
 </Project>
